@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="LibraryMenuItemMargin">8dp</dimen>
+    <dimen name="LibraryMenuTextSize">36sp</dimen>
+    <dimen name="LibraryMenuTextPaddingEnd">12dp</dimen>
+    <dimen name="PlayerButtonsMargin">4dp</dimen>
+</resources>

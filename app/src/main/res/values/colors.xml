@@ -3,4 +3,11 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="SongsMenu">#998e8ba9</color>
+    <color name="FavouritesMenu">#998ba999</color>
+    <color name="AlbumsMenu">#99a98ba0</color>
+    <color name="ArtistsMenu">#99dd9f90</color>
+    <color name="GenresMenu">#99d8dd90</color>
+    <color name="PlayerBarBackground">#ccced6d2</color>
+    <color name="PlayerButtonDefault">#dddddd</color>
 </resources>

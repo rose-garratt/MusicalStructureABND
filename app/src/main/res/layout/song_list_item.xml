@@ -3,18 +3,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp">
+    android:padding="8dp">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/miwok_text_view"
-        tools:text="lutti"
-        />
+        android:id="@+id/title_text_view"
+        tools:text="song title"
+        android:textStyle="bold"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/default_text_view"
-        tools:text="one"/>
+        android:id="@+id/artist_text_view"
+        tools:text="artist name"
+        android:textAllCaps="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/album_text_view"
+        tools:text="album"
+        android:textStyle="italic"/>
 
 </LinearLayout>

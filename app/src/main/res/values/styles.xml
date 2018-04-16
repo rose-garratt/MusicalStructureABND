@@ -1,11 +1,29 @@
 <resources>
-
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-</resources>
+    <style name="LibraryMenuItem">
+        <item name="android:layout_margin">@dimen/LibraryMenuItemMargin</item>
+        <item name="android:textSize">@dimen/LibraryMenuTextSize</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:gravity">right</item>
+        <item name="android:paddingEnd">@dimen/LibraryMenuTextPaddingEnd</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:clickable">true</item>
+</style>
+    <style name="MediaNavigationButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/PlayerButtonDefault</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_margin">@dimen/PlayerButtonsMargin</item>
+    </style>
+
+    </resources>

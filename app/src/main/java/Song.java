@@ -1,19 +1,25 @@
 package com.example.android.musicalstructureabnd;
 
 public class Song {
-    private String xsongTitle;
-    private String xsongArtist;
-    private String xsongAlbum;
+    private String msongTitle;
+    private String msongArtist;
+    private String msongAlbum;
 
     public void songDetails(String songTitle, String songArtist, String songAlbum) {
-        xsongTitle = songTitle;
-        xsongArtist = songArtist;
-        xsongAlbum = songAlbum;
+        msongTitle = songTitle;
+        msongArtist = songArtist;
+        msongAlbum = songAlbum;
         }
 
-        public String displaySongDetails() {
-        return xsongTitle + ", " + xsongArtist + ", " + xsongAlbum;
+        public String getTitle()    {
+        return msongTitle;
         }
 
-        public String getSongTitle()
+        public String getArtist()   {
+        return msongArtist;
+        }
+
+        public String getAlbum()    {
+        return msongAlbum;
+        }
 }
