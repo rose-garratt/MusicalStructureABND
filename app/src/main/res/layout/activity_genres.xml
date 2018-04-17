@@ -6,19 +6,18 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".Category">
-<TextView
-    style="@style/BackButton"
-    android:id="@+id/back_to_main"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:clickable="true"
-    android:text="Back"/>
+    <TextView
+        style="@style/BackButton"
+        android:id="@+id/back_to_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="Back"
+        />
 
-    <ListView
-        android:id="@+id/list"
-        android:orientation="vertical"
+    <GridView
+        android:id="@+id/genres_grid"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.example.android.musicalstructureabnd.Category"
-        />
+        tools:context="com.example.android.musicalstructureabnd.Genres"/>
 </LinearLayout>
