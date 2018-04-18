@@ -5,10 +5,10 @@ public class Song {
     private String msongArtist;
     private String msongAlbum;
 
-    public void songDetails(String songTitle, String songArtist, String songAlbum) {
-        msongTitle = songTitle;
-        msongArtist = songArtist;
-        msongAlbum = songAlbum;
+    Song(String msongTitle, String msongArtist, String msongAlbum) {
+        this.msongTitle = msongTitle;
+        this.msongArtist = msongArtist;
+        this.msongAlbum = msongAlbum;
         }
 
         public String getTitle()    {

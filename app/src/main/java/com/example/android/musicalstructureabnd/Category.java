@@ -24,17 +24,17 @@ public class Category extends AppCompatActivity {
          }
         });
       ArrayList<com.example.android.musicalstructureabnd.Song> songList = new ArrayList<>();
-      songList.add(new com.example.android.musicalstructureabnd.Song("Kilamba", "Kyaku Kyadaff", "Se Hungwile"));
-      songList.add(new com.example.android.musicalstructureabnd.Song("Biscoitinho", "Yuri da Cunha", "O Intérprete"));
-      songList.add(new com.example.android.musicalstructureabnd.Song("Aló", "Matias Damasio", "Por Amor"));
-      songList.add(new com.example.android.musicalstructureabnd.Song("Sirens", "Pearl Jam", "Lightning Bolt"));
-      songList.add(new com.example.android.musicalstructureabnd.Song("Nearly Forgot My Broken Heart", "Chris Cornell", "Higher Truth"))
-      songList.add(new com.example.android.musicalstructureabnd.Song("On The Beach", "Neil Young", "On The Beach"));
-      songList.add(new com.example.android.musicalstructureabnd.Song("Minor Swing", "Django Reinhardt and Stéphane Grappelli", "The Quintet of the Hot Club of France"));
-      songList.add(new com.example.android.musicalstructureabnd.Song("Since I've Been Loving You", "Led Zeppelin", "Led Zeppelin III"));
-      songList.add(new com.example.android.musicalstructureabnd.Song("Streamline", "System Of A Down", "Steal This Album"));
-      songList.add(new com.example.android.musicalstructureabnd.Song("Four", "Miles Davis Quintet", "Workin'"));
-      songList.add(new com.example.android.musicalstructureabnd.Song("Nature Boy", "Nat King Cole", "The Nat King Cole Story"));
+      songList.add(new Song("Kilamba", "Kyaku Kyadaff", "Se Hungwile"));
+      songList.add(new Song("Biscoitinho", "Yuri da Cunha", "O Intérprete"));
+      songList.add(new Song("Aló", "Matias Damasio", "Por Amor"));
+      songList.add(new Song("Sirens", "Pearl Jam", "Lightning Bolt"));
+      songList.add(new Song("Nearly Forgot My Broken Heart", "Chris Cornell", "Higher Truth"));
+      songList.add(new Song("On The Beach", "Neil Young", "On The Beach"));
+      songList.add(new Song("Minor Swing", "Django Reinhardt and Stéphane Grappelli", "The Quintet of the Hot Club of France"));
+      songList.add(new Song("Since I've Been Loving You", "Led Zeppelin", "Led Zeppelin III"));
+      songList.add(new Song("Streamline", "System Of A Down", "Steal This Album"));
+      songList.add(new Song("Four", "Miles Davis Quintet", "Workin'"));
+      songList.add(new Song("Nature Boy", "Nat King Cole", "The Nat King Cole Story"));
 
         SongAdapter adapter = new SongAdapter(this, songList);
 
